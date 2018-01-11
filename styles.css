@@ -1,3 +1,6 @@
+/* * {
+	box-sizing: border-box;
+} */
 body {
 	background: url(images/taustapeilikuva.png) no-repeat center center fixed; /*url(images/bg.jpg) no-repeat center center fixed; */
 }
@@ -30,18 +33,6 @@ body {
 	/* text-shadow: 2px 2px 8px #ffffff; */
 }
 
-/* .whiteShadow h3 {
-	font-size: 60px !important;
-} */
-
-.section {
-	padding: 6% 1%;
-	min-height: 350px;
-}
-
-/* .section .row a {
-	style: none;
-} */
 
 .title {
 	text-align: center;
@@ -52,18 +43,12 @@ body {
 	color: white;
 }
 
-
-/* .slideExpandUp .textShadow h4 {
-	color: #280a0a !important;
-} */
-
 #projects {
 	/* background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)); */
 	background-color: white;
 }
 
 .box {
-	/* text-align: center; */
 	margin: 3% 3%;
 	display: flex;
 	align-items: center;
@@ -84,15 +69,10 @@ h3 {
 	width: 50%;
 }
 
-/* #expertese {
-	background-color: #8e8878ad;
-} */
-
 .footer {
 	background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
 	color: #fff;
 	padding: 20px 0;
-	/*display: inline;*/
 }
 
 .contacts {
@@ -120,7 +100,6 @@ h3 {
 
 #education {
 	background-color: #434b55c9;
-	/* background-color: rgba(40, 10, 10, 0.8); */
 	color: white;
 	display: flex;
 	align-items: center;
@@ -130,8 +109,6 @@ h3 {
 .ol-list-container {
 	display: flex;
 	justify-content: center;
-	/*margin-left: auto;
-	margin-right: auto;*/
 }
 
 ol {
@@ -147,13 +124,27 @@ i {
 }
 
 .row {
-	padding-bottom: 30px;
+	padding-bottom: 20px;
+	/* padding-right: 8,333%; */
+}
+
+.lower {
+	padding-bottom: 50px;
 }
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 320px) {
-/* .responsive-center {
-	text-align: center;
-} */
+
+	#projects.section.row {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+
+	.box {
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
 .small-box {
 	height: 115px;
 	margin-top: 15px;
@@ -171,12 +162,27 @@ ol li h3 {
 
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px) {
-	/* .responsive-center {
-		text-align: center;
-	} */
+
 .header {
 	padding-top: 35px;
 }
+
+.small-box{
+	width: 95%;
+}
+
+ol {
+	margin: 0 3%;
+}
+
+.section {
+	padding: 3% 5.5%;
+}
+
+ol li h3 {
+	text-align: left;
+}
+
 }
 
 /* Small Devices, Tablets */
@@ -186,7 +192,21 @@ ol li h3 {
 	}
 
 	.container {
-		flex-direction: row
+		flex-direction: row;
+	}
+
+
+	#projects.section.row {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin-bottom: 10%;
+		padding-right: 3%;
+		padding-left: 3%;
+	}
+
+	.box {
+		width: 23%;
 	}
 
 	.company-logo {
@@ -208,10 +228,28 @@ ol li h3 {
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
 
+.box.box2 {
+	margin-left: 3%;
+	margin-right: 3%;
+}
+
+#projects.section.row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-bottom: 10%;
+	padding-right: 3%;
+	padding-left: 3%;
+}
+
+.box {
+	width: 23%;
+}
+
 }
 
 /* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px) {
+@media only screen and (min-width : 1200px) and (max-width: 2133px) {
 	.header {
 		padding-top: 100px;
 	}
