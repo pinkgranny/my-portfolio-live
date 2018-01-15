@@ -200,7 +200,7 @@ ol li h3 {
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
-		margin-bottom: 10%;
+		/* margin-bottom: 10%; */
 		padding-right: 3%;
 		padding-left: 3%;
 	}
@@ -210,7 +210,6 @@ ol li h3 {
 	}
 
 	.company-logo {
-		/* border-radius: 50%; */
 		width: 100%;
 	}
 
@@ -237,7 +236,7 @@ ol li h3 {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	margin-bottom: 10%;
+	/* margin-bottom: 10%; */
 	padding-right: 3%;
 	padding-left: 3%;
 }
