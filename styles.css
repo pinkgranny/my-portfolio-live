@@ -2,7 +2,7 @@
 	box-sizing: border-box;
 } */
 body {
-	background: url(images/taustapeilikuva.png) no-repeat center center fixed; /*url(images/bg.jpg) no-repeat center center fixed; */
+	background: url(images/taustapeilikuva.png) no-repeat center center fixed;
 }
 
 #profilePic {
@@ -44,7 +44,6 @@ body {
 }
 
 #projects {
-	/* background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)); */
 	background-color: white;
 }
 
@@ -125,7 +124,6 @@ i {
 
 .row {
 	padding-bottom: 20px;
-	/* padding-right: 8,333%; */
 }
 
 .lower {
@@ -200,7 +198,6 @@ ol li h3 {
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
-		/* margin-bottom: 10%; */
 		padding-right: 3%;
 		padding-left: 3%;
 	}
@@ -236,7 +233,6 @@ ol li h3 {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	/* margin-bottom: 10%; */
 	padding-right: 3%;
 	padding-left: 3%;
 }
