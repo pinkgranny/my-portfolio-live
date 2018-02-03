@@ -97,6 +97,11 @@ h3 {
 	padding: 3px;
 }
 
+.small-box i, p, h5,
+.title .textShadow h4, h3 {
+	color: grey;
+}
+
 #education {
 	background-color: #434b55c9;
 	color: white;
