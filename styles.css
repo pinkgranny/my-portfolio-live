@@ -97,9 +97,12 @@ h3 {
 	padding: 3px;
 }
 
-.small-box i, p, h5,
-.title .textShadow h4, h3 {
-	color: grey;
+.small-box i,
+.small-box p,
+.small-box h5,
+.title .textShadow h4,
+.title .textShadow h3 {
+	color: #dce2e8;
 }
 
 #education {
